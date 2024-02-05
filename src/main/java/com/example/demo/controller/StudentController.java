@@ -20,7 +20,7 @@ public class StudentController {
 	private final StudentService studentService;
 	
 	@GetMapping
-	public List<Student> getMethodName() {
+	public List<Student> getAllStudents() {
 		return studentService.getAll();
 	}
 	
